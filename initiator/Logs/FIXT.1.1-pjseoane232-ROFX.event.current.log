@@ -1,0 +1,22 @@
+20190625-01:48:19.000000000 : Created session
+20190625-01:48:19.000000000 : Connecting to 127.0.0.1 on port 9875 (Source :0)
+20190625-01:48:19.000000000 : Initiated logon request
+20190625-01:48:20.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190625-01:48:20.000000000 : Received logon response
+20190625-01:48:20.000000000 : Message 2 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:48:20.000000000 : Message 3 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:48:20.000000000 : Message 4 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:48:20.000000000 : Message 5 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:48:20.000000000 : Message 6 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:48:20.000000000 : Message 7 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:49:40.000000000 : Created session
+20190625-01:49:40.000000000 : Connecting to 127.0.0.1 on port 9875 (Source :0)
+20190625-01:49:40.000000000 : Initiated logon request
+20190625-01:49:41.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190625-01:49:41.000000000 : Received logon response
+20190625-01:49:42.000000000 : Message 2 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:49:42.000000000 : Message 3 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:49:42.000000000 : Message 4 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:49:42.000000000 : Message 5 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:49:42.000000000 : Message 6 Rejected: Value is incorrect (out of range) for this tag:336
+20190625-01:49:42.000000000 : Message 7 Rejected: Value is incorrect (out of range) for this tag:336
