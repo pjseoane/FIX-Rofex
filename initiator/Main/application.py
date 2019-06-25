@@ -7,7 +7,7 @@ import sys
 import quickfix as fix
 import time
 import logging
-#from model.logger import setup_logger
+
 from initiator.model.logger import setup_logger
 from initiator.model import Field
 
