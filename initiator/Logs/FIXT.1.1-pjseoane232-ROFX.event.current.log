@@ -630,3 +630,673 @@
 20190629-03:44:13.000000000 : Initiated logon request
 20190629-03:44:16.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
 20190629-03:44:16.000000000 : Received logon response
+20190629-13:35:01.000000000 : Created session
+20190629-13:35:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:35:01.000000000 : Initiated logon request
+20190629-13:35:12.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:35:12.000000000 : Received logon response
+20190629-13:35:13.000000000 : Message 2 Rejected: Value is incorrect (out of range) for this tag:336
+20190629-13:35:13.000000000 : Message 3 Rejected: Value is incorrect (out of range) for this tag:336
+20190629-13:35:13.000000000 : Message 4 Rejected: Value is incorrect (out of range) for this tag:336
+20190629-13:35:13.000000000 : Message 5 Rejected: Value is incorrect (out of range) for this tag:336
+20190629-13:35:13.000000000 : Message 6 Rejected: Value is incorrect (out of range) for this tag:336
+20190629-13:35:13.000000000 : Message 7 Rejected: Value is incorrect (out of range) for this tag:336
+20190629-13:36:06.000000000 : Created session
+20190629-13:36:06.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:36:06.000000000 : Initiated logon request
+20190629-13:36:21.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:36:21.000000000 : Received logon response
+20190629-13:41:49.000000000 : Created session
+20190629-13:41:49.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:41:49.000000000 : Initiated logon request
+20190629-13:41:51.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:41:51.000000000 : Received logon response
+20190629-13:44:13.000000000 : Created session
+20190629-13:44:13.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:44:13.000000000 : Initiated logon request
+20190629-13:44:15.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:44:15.000000000 : Received logon response
+20190629-13:45:52.000000000 : Created session
+20190629-13:45:52.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:45:52.000000000 : Initiated logon request
+20190629-13:45:52.000000000 : Socket Error: Connection reset by peer.
+20190629-13:45:52.000000000 : Disconnecting
+20190629-13:46:10.000000000 : Created session
+20190629-13:46:10.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:46:10.000000000 : Initiated logon request
+20190629-13:46:24.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:46:24.000000000 : Received logon response
+20190629-13:50:21.000000000 : Created session
+20190629-13:50:21.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:50:21.000000000 : Initiated logon request
+20190629-13:50:23.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:50:23.000000000 : Received logon response
+20190629-13:51:02.000000000 : Created session
+20190629-13:51:02.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:51:02.000000000 : Initiated logon request
+20190629-13:51:03.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:51:03.000000000 : Received logon response
+20190629-13:54:49.000000000 : Created session
+20190629-13:54:49.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:54:49.000000000 : Initiated logon request
+20190629-13:54:50.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:54:50.000000000 : Received logon response
+20190629-13:55:36.000000000 : Created session
+20190629-13:55:36.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:55:36.000000000 : Initiated logon request
+20190629-13:55:37.000000000 : Socket Error: Connection reset by peer.
+20190629-13:55:37.000000000 : Disconnecting
+20190629-13:55:51.000000000 : Created session
+20190629-13:55:51.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:55:51.000000000 : Initiated logon request
+20190629-13:55:52.000000000 : Socket Error: Connection reset by peer.
+20190629-13:55:52.000000000 : Disconnecting
+20190629-13:57:21.000000000 : Created session
+20190629-13:57:21.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:57:21.000000000 : Initiated logon request
+20190629-13:57:23.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:57:23.000000000 : Received logon response
+20190629-13:57:48.000000000 : Created session
+20190629-13:57:48.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-13:57:48.000000000 : Initiated logon request
+20190629-13:57:52.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-13:57:52.000000000 : Received logon response
+20190629-14:00:31.000000000 : Created session
+20190629-14:00:31.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-14:00:31.000000000 : Initiated logon request
+20190629-14:00:32.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-14:00:32.000000000 : Received logon response
+20190629-14:02:44.000000000 : Created session
+20190629-14:02:44.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-14:02:44.000000000 : Initiated logon request
+20190629-14:02:53.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-14:02:53.000000000 : Received logon response
+20190629-14:05:31.000000000 : Created session
+20190629-14:05:31.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-14:05:31.000000000 : Initiated logon request
+20190629-14:05:32.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-14:05:32.000000000 : Received logon response
+20190629-14:07:59.000000000 : Created session
+20190629-14:07:59.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-14:07:59.000000000 : Initiated logon request
+20190629-14:08:03.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-14:08:03.000000000 : Received logon response
+20190629-14:35:51.000000000 : Created session
+20190629-14:35:51.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-14:35:51.000000000 : Initiated logon request
+20190629-14:36:02.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-14:36:02.000000000 : Received logon response
+20190629-14:43:52.000000000 : Created session
+20190629-14:43:52.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-14:43:52.000000000 : Initiated logon request
+20190629-14:43:54.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-14:43:54.000000000 : Received logon response
+20190629-14:45:22.000000000 : Created session
+20190629-14:45:22.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-14:45:22.000000000 : Initiated logon request
+20190629-14:45:25.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-14:45:25.000000000 : Received logon response
+20190629-17:27:24.000000000 : Created session
+20190629-17:27:24.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:27:24.000000000 : Initiated logon request
+20190629-17:27:25.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:27:25.000000000 : Received logon response
+20190629-17:28:06.000000000 : Created session
+20190629-17:28:06.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:28:06.000000000 : Initiated logon request
+20190629-17:28:10.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:28:10.000000000 : Received logon response
+20190629-17:31:02.000000000 : Created session
+20190629-17:31:02.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:31:02.000000000 : Initiated logon request
+20190629-17:31:06.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:31:06.000000000 : Received logon response
+20190629-17:34:05.000000000 : Created session
+20190629-17:34:05.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:34:05.000000000 : Initiated logon request
+20190629-17:34:06.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:34:06.000000000 : Received logon response
+20190629-17:47:47.000000000 : Created session
+20190629-17:47:47.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:47:47.000000000 : Initiated logon request
+20190629-17:47:49.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:47:49.000000000 : Received logon response
+20190629-17:48:41.000000000 : Created session
+20190629-17:48:41.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:48:41.000000000 : Initiated logon request
+20190629-17:48:52.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:48:52.000000000 : Received logon response
+20190629-17:55:29.000000000 : Created session
+20190629-17:55:29.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:55:29.000000000 : Initiated logon request
+20190629-17:55:34.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:55:34.000000000 : Received logon response
+20190629-17:56:50.000000000 : Created session
+20190629-17:56:50.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-17:56:50.000000000 : Initiated logon request
+20190629-17:56:51.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-17:56:51.000000000 : Received logon response
+20190629-17:56:52.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-17:56:53.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-17:56:53.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-17:56:54.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-17:56:54.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-18:02:30.000000000 : Created session
+20190629-18:02:30.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:02:30.000000000 : Initiated logon request
+20190629-18:02:32.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:02:32.000000000 : Received logon response
+20190629-18:02:33.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-18:02:37.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-18:02:37.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-18:02:37.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-18:02:37.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-18:05:16.000000000 : Created session
+20190629-18:05:16.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:05:16.000000000 : Initiated logon request
+20190629-18:05:18.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:05:18.000000000 : Received logon response
+20190629-18:05:18.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-18:05:20.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-18:05:20.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-18:05:20.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-18:05:21.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-18:05:57.000000000 : Created session
+20190629-18:05:57.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:05:57.000000000 : Initiated logon request
+20190629-18:06:01.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:06:01.000000000 : Received logon response
+20190629-18:07:54.000000000 : Created session
+20190629-18:07:54.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:08:55.000000000 : Created session
+20190629-18:08:55.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:08:55.000000000 : Initiated logon request
+20190629-18:08:56.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:08:56.000000000 : Received logon response
+20190629-18:08:57.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-18:08:59.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-18:08:59.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-18:08:59.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-18:09:00.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-18:12:05.000000000 : Created session
+20190629-18:12:05.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:12:05.000000000 : Initiated logon request
+20190629-18:12:06.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:12:06.000000000 : Received logon response
+20190629-18:15:26.000000000 : Created session
+20190629-18:15:26.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:15:26.000000000 : Initiated logon request
+20190629-18:15:27.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:15:27.000000000 : Received logon response
+20190629-18:17:43.000000000 : Created session
+20190629-18:17:43.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:17:43.000000000 : Initiated logon request
+20190629-18:17:49.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:17:49.000000000 : Received logon response
+20190629-18:18:47.000000000 : Created session
+20190629-18:18:47.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:18:47.000000000 : Initiated logon request
+20190629-18:18:53.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:18:53.000000000 : Received logon response
+20190629-18:20:38.000000000 : Created session
+20190629-18:20:38.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:20:38.000000000 : Initiated logon request
+20190629-18:20:40.000000000 : Socket Error: Connection reset by peer.
+20190629-18:20:40.000000000 : Disconnecting
+20190629-18:20:54.000000000 : Created session
+20190629-18:20:54.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:20:54.000000000 : Initiated logon request
+20190629-18:20:59.000000000 : Socket Error: Connection reset by peer.
+20190629-18:20:59.000000000 : Disconnecting
+20190629-18:21:09.000000000 : Created session
+20190629-18:21:09.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:21:09.000000000 : Initiated logon request
+20190629-18:21:13.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:21:13.000000000 : Received logon response
+20190629-18:22:28.000000000 : Created session
+20190629-18:22:28.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:22:28.000000000 : Initiated logon request
+20190629-18:22:32.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:22:32.000000000 : Received logon response
+20190629-18:23:42.000000000 : Created session
+20190629-18:23:42.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:23:42.000000000 : Initiated logon request
+20190629-18:23:43.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:23:43.000000000 : Received logon response
+20190629-18:23:44.000000000 : Message 9 Rejected: Tag appears more than once:40
+20190629-18:23:45.000000000 : Message 10 Rejected: Tag appears more than once:15
+20190629-18:23:46.000000000 : Message 11 Rejected: Tag appears more than once:15
+20190629-18:23:46.000000000 : Message 12 Rejected: Tag appears more than once:15
+20190629-18:23:46.000000000 : Message 13 Rejected: Tag appears more than once:15
+20190629-18:24:14.000000000 : Created session
+20190629-18:24:14.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:24:14.000000000 : Initiated logon request
+20190629-18:24:16.000000000 : Socket Error: Connection reset by peer.
+20190629-18:24:16.000000000 : Disconnecting
+20190629-18:24:48.000000000 : Created session
+20190629-18:24:48.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:24:48.000000000 : Initiated logon request
+20190629-18:24:50.000000000 : Socket Error: Connection reset by peer.
+20190629-18:24:50.000000000 : Disconnecting
+20190629-18:25:48.000000000 : Created session
+20190629-18:25:48.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:25:48.000000000 : Initiated logon request
+20190629-18:25:49.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:25:49.000000000 : Received logon response
+20190629-18:27:03.000000000 : Created session
+20190629-18:27:03.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:27:03.000000000 : Initiated logon request
+20190629-18:27:04.000000000 : Socket Error: Connection reset by peer.
+20190629-18:27:04.000000000 : Disconnecting
+20190629-18:27:52.000000000 : Created session
+20190629-18:27:52.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:27:52.000000000 : Initiated logon request
+20190629-18:27:54.000000000 : Socket Error: Connection reset by peer.
+20190629-18:27:54.000000000 : Disconnecting
+20190629-18:28:03.000000000 : Created session
+20190629-18:28:03.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:28:03.000000000 : Initiated logon request
+20190629-18:28:04.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:28:04.000000000 : Received logon response
+20190629-18:32:20.000000000 : Created session
+20190629-18:32:20.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:32:20.000000000 : Initiated logon request
+20190629-18:32:21.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:32:21.000000000 : Received logon response
+20190629-18:33:45.000000000 : Created session
+20190629-18:33:45.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:33:45.000000000 : Initiated logon request
+20190629-18:33:49.000000000 : Socket Error: Connection reset by peer.
+20190629-18:33:49.000000000 : Disconnecting
+20190629-18:34:45.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:34:45.000000000 : Initiated logon request
+20190629-18:34:46.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:34:46.000000000 : Received logon response
+20190629-18:34:46.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-18:34:49.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-18:34:49.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-18:34:49.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-18:34:49.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-18:38:03.000000000 : Created session
+20190629-18:38:03.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:38:03.000000000 : Initiated logon request
+20190629-18:38:05.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:38:05.000000000 : Received logon response
+20190629-18:38:05.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-18:38:08.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-18:38:08.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-18:38:09.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-18:38:09.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-18:38:29.000000000 : Created session
+20190629-18:38:29.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:38:29.000000000 : Initiated logon request
+20190629-18:38:30.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:38:30.000000000 : Received logon response
+20190629-18:43:46.000000000 : Created session
+20190629-18:43:46.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:43:46.000000000 : Initiated logon request
+20190629-18:43:47.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:43:47.000000000 : Received logon response
+20190629-18:55:31.000000000 : Created session
+20190629-18:55:31.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:55:31.000000000 : Initiated logon request
+20190629-18:55:33.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:55:33.000000000 : Received logon response
+20190629-18:56:50.000000000 : Created session
+20190629-18:56:50.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:56:50.000000000 : Initiated logon request
+20190629-18:56:55.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:56:55.000000000 : Received logon response
+20190629-18:57:33.000000000 : Created session
+20190629-18:57:33.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:57:33.000000000 : Initiated logon request
+20190629-18:57:35.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:57:35.000000000 : Received logon response
+20190629-18:57:35.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-18:57:38.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-18:57:39.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-18:57:39.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-18:57:39.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-18:58:04.000000000 : Created session
+20190629-18:58:04.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-18:58:04.000000000 : Initiated logon request
+20190629-18:58:13.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-18:58:13.000000000 : Received logon response
+20190629-19:11:04.000000000 : Created session
+20190629-19:11:04.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:11:04.000000000 : Initiated logon request
+20190629-19:11:05.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:11:05.000000000 : Received logon response
+20190629-19:13:45.000000000 : Created session
+20190629-19:13:45.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:13:45.000000000 : Initiated logon request
+20190629-19:13:46.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:13:46.000000000 : Received logon response
+20190629-19:15:58.000000000 : Created session
+20190629-19:15:58.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:15:58.000000000 : Initiated logon request
+20190629-19:15:59.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:15:59.000000000 : Received logon response
+20190629-19:17:48.000000000 : Created session
+20190629-19:17:48.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:17:48.000000000 : Initiated logon request
+20190629-19:17:49.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:17:49.000000000 : Received logon response
+20190629-19:19:12.000000000 : Created session
+20190629-19:19:12.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:19:12.000000000 : Initiated logon request
+20190629-19:19:13.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:19:13.000000000 : Received logon response
+20190629-19:21:30.000000000 : Created session
+20190629-19:21:30.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:21:30.000000000 : Initiated logon request
+20190629-19:21:36.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:21:36.000000000 : Received logon response
+20190629-19:26:01.000000000 : Created session
+20190629-19:26:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:26:01.000000000 : Initiated logon request
+20190629-19:26:02.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:26:02.000000000 : Received logon response
+20190629-19:26:27.000000000 : Created session
+20190629-19:26:27.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:26:27.000000000 : Initiated logon request
+20190629-19:26:28.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:26:28.000000000 : Received logon response
+20190629-19:26:47.000000000 : Created session
+20190629-19:26:47.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:26:47.000000000 : Initiated logon request
+20190629-19:26:48.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:26:48.000000000 : Received logon response
+20190629-19:27:04.000000000 : Created session
+20190629-19:27:04.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:27:04.000000000 : Initiated logon request
+20190629-19:27:06.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:27:06.000000000 : Received logon response
+20190629-19:31:01.000000000 : Created session
+20190629-19:31:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:31:01.000000000 : Initiated logon request
+20190629-19:31:02.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:31:02.000000000 : Received logon response
+20190629-19:31:24.000000000 : Created session
+20190629-19:31:24.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:31:24.000000000 : Initiated logon request
+20190629-19:31:25.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:31:25.000000000 : Received logon response
+20190629-19:40:41.000000000 : Created session
+20190629-19:40:41.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:40:41.000000000 : Initiated logon request
+20190629-19:40:42.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:40:42.000000000 : Received logon response
+20190629-19:44:45.000000000 : Created session
+20190629-19:44:45.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:44:45.000000000 : Initiated logon request
+20190629-19:44:47.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:44:47.000000000 : Received logon response
+20190629-19:47:01.000000000 : Created session
+20190629-19:47:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:47:01.000000000 : Initiated logon request
+20190629-19:47:02.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:47:02.000000000 : Received logon response
+20190629-19:48:32.000000000 : Created session
+20190629-19:48:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:48:32.000000000 : Initiated logon request
+20190629-19:48:34.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:48:34.000000000 : Received logon response
+20190629-19:52:05.000000000 : Created session
+20190629-19:52:05.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:52:05.000000000 : Initiated logon request
+20190629-19:52:06.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:52:06.000000000 : Received logon response
+20190629-19:53:36.000000000 : Created session
+20190629-19:53:36.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:53:36.000000000 : Initiated logon request
+20190629-19:53:37.000000000 : Socket Error: Connection reset by peer.
+20190629-19:53:37.000000000 : Disconnecting
+20190629-19:53:50.000000000 : Created session
+20190629-19:53:50.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-19:53:50.000000000 : Initiated logon request
+20190629-19:53:51.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-19:53:51.000000000 : Received logon response
+20190629-20:05:52.000000000 : Created session
+20190629-20:05:52.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:05:52.000000000 : Initiated logon request
+20190629-20:05:54.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:05:54.000000000 : Received logon response
+20190629-20:07:00.000000000 : Created session
+20190629-20:07:00.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:07:00.000000000 : Initiated logon request
+20190629-20:07:05.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:07:05.000000000 : Received logon response
+20190629-20:08:31.000000000 : Created session
+20190629-20:08:31.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:08:31.000000000 : Initiated logon request
+20190629-20:08:36.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:08:36.000000000 : Received logon response
+20190629-20:09:38.000000000 : Created session
+20190629-20:09:38.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:09:38.000000000 : Initiated logon request
+20190629-20:09:43.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:09:43.000000000 : Received logon response
+20190629-20:14:05.000000000 : Created session
+20190629-20:14:05.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:14:05.000000000 : Initiated logon request
+20190629-20:14:08.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:14:08.000000000 : Received logon response
+20190629-20:16:42.000000000 : Created session
+20190629-20:16:42.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:16:42.000000000 : Initiated logon request
+20190629-20:16:46.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:16:46.000000000 : Received logon response
+20190629-20:22:50.000000000 : Created session
+20190629-20:22:50.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:22:50.000000000 : Initiated logon request
+20190629-20:22:51.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:22:51.000000000 : Received logon response
+20190629-20:23:44.000000000 : Created session
+20190629-20:23:44.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:23:44.000000000 : Initiated logon request
+20190629-20:23:45.000000000 : Socket Error: Connection reset by peer.
+20190629-20:23:45.000000000 : Disconnecting
+20190629-20:23:55.000000000 : Created session
+20190629-20:23:55.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:23:55.000000000 : Initiated logon request
+20190629-20:23:57.000000000 : Socket Error: Connection reset by peer.
+20190629-20:23:57.000000000 : Disconnecting
+20190629-20:24:08.000000000 : Created session
+20190629-20:24:08.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:24:08.000000000 : Initiated logon request
+20190629-20:24:10.000000000 : Socket Error: Connection reset by peer.
+20190629-20:24:10.000000000 : Disconnecting
+20190629-20:24:44.000000000 : Created session
+20190629-20:24:44.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:24:44.000000000 : Initiated logon request
+20190629-20:24:46.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:24:46.000000000 : Received logon response
+20190629-20:25:39.000000000 : Created session
+20190629-20:25:39.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:25:39.000000000 : Initiated logon request
+20190629-20:25:41.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:25:41.000000000 : Received logon response
+20190629-20:30:22.000000000 : Created session
+20190629-20:30:22.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:30:22.000000000 : Initiated logon request
+20190629-20:30:23.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:30:23.000000000 : Received logon response
+20190629-20:37:40.000000000 : Created session
+20190629-20:37:40.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:37:40.000000000 : Initiated logon request
+20190629-20:37:44.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:37:44.000000000 : Received logon response
+20190629-20:42:58.000000000 : Created session
+20190629-20:42:58.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:42:58.000000000 : Initiated logon request
+20190629-20:42:59.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:42:59.000000000 : Received logon response
+20190629-20:43:00.000000000 : Message 3 Rejected: Tag appears more than once:40
+20190629-20:43:02.000000000 : Message 4 Rejected: Tag appears more than once:15
+20190629-20:43:02.000000000 : Message 5 Rejected: Tag appears more than once:15
+20190629-20:43:02.000000000 : Message 6 Rejected: Tag appears more than once:15
+20190629-20:43:02.000000000 : Message 7 Rejected: Tag appears more than once:15
+20190629-20:45:46.000000000 : Created session
+20190629-20:45:46.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:45:46.000000000 : Initiated logon request
+20190629-20:45:48.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:45:48.000000000 : Received logon response
+20190629-20:45:49.000000000 : Message 9 Rejected: Tag appears more than once:40
+20190629-20:45:51.000000000 : Message 10 Rejected: Tag appears more than once:15
+20190629-20:45:51.000000000 : Message 11 Rejected: Tag appears more than once:15
+20190629-20:45:51.000000000 : Message 12 Rejected: Tag appears more than once:15
+20190629-20:45:51.000000000 : Message 13 Rejected: Tag appears more than once:15
+20190629-20:46:19.000000000 : Created session
+20190629-20:46:19.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:46:19.000000000 : Initiated logon request
+20190629-20:46:21.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:46:21.000000000 : Received logon response
+20190629-20:47:17.000000000 : Created session
+20190629-20:47:17.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:47:17.000000000 : Initiated logon request
+20190629-20:47:19.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:47:19.000000000 : Received logon response
+20190629-20:47:40.000000000 : Created session
+20190629-20:47:40.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-20:47:40.000000000 : Initiated logon request
+20190629-20:47:41.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-20:47:41.000000000 : Received logon response
+20190629-21:13:24.000000000 : Created session
+20190629-21:13:24.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-21:13:24.000000000 : Initiated logon request
+20190629-21:13:26.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20190629-21:13:26.000000000 : Disconnecting
+20190629-21:14:26.000000000 : Created session
+20190629-21:14:26.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-21:14:26.000000000 : Initiated logon request
+20190629-21:14:36.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20190629-21:14:36.000000000 : Disconnecting
+20190629-21:17:01.000000000 : Created session
+20190629-21:17:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-21:17:01.000000000 : Initiated logon request
+20190629-21:17:04.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-21:17:04.000000000 : Received logon response
+20190629-21:22:39.000000000 : Created session
+20190629-21:22:40.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-21:22:40.000000000 : Initiated logon request
+20190629-21:22:43.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-21:22:43.000000000 : Received logon response
+20190629-21:23:41.000000000 : Created session
+20190629-21:23:41.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-21:23:41.000000000 : Initiated logon request
+20190629-21:23:43.000000000 : Socket Error: Connection reset by peer.
+20190629-21:23:43.000000000 : Disconnecting
+20190629-21:24:41.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-21:24:41.000000000 : Initiated logon request
+20190629-21:24:45.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-21:24:45.000000000 : Received logon response
+20190629-21:52:53.000000000 : Created session
+20190629-21:52:53.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190629-21:52:53.000000000 : Initiated logon request
+20190629-21:52:54.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190629-21:52:54.000000000 : Received logon response
+20190629-22:53:02.000000000 : Sent test request TEST
+20190629-22:53:36.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20190629-22:53:36.000000000 : Disconnecting
+20190630-15:50:08.000000000 : Created session
+20190630-15:50:08.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-15:50:09.000000000 : Disconnecting
+20190630-15:51:09.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-15:51:09.000000000 : Initiated logon request
+20190630-15:51:11.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-15:51:11.000000000 : Received logon response
+20190630-17:43:13.000000000 : Timed out waiting for heartbeat
+20190630-17:43:13.000000000 : Disconnecting
+20190630-17:43:13.000000000 : Initiated logon request
+20190630-17:43:42.000000000 : Created session
+20190630-17:43:42.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-17:43:42.000000000 : Initiated logon request
+20190630-17:43:43.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-17:43:43.000000000 : Received logon response
+20190630-18:21:38.000000000 : Created session
+20190630-18:21:38.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-18:21:38.000000000 : Initiated logon request
+20190630-18:21:39.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-18:21:39.000000000 : Received logon response
+20190630-18:55:09.000000000 : Timed out waiting for heartbeat
+20190630-18:55:10.000000000 : Disconnecting
+20190630-18:55:11.000000000 : Initiated logon request
+20190630-18:56:09.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-18:56:09.000000000 : Initiated logon request
+20190630-18:56:10.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-18:56:10.000000000 : Received logon response
+20190630-19:00:37.000000000 : Created session
+20190630-19:00:37.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-19:00:37.000000000 : Initiated logon request
+20190630-19:00:38.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-19:00:38.000000000 : Received logon response
+20190630-19:01:16.000000000 : Created session
+20190630-19:01:16.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-19:01:16.000000000 : Initiated logon request
+20190630-19:01:19.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-19:01:19.000000000 : Received logon response
+20190630-19:01:19.000000000 : Message 2 Rejected: Tag appears more than once:15
+20190630-19:02:29.000000000 : Created session
+20190630-19:02:29.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-19:02:29.000000000 : Initiated logon request
+20190630-19:02:32.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-19:02:32.000000000 : Received logon response
+20190630-22:08:58.000000000 : Timed out waiting for heartbeat
+20190630-22:08:59.000000000 : Disconnecting
+20190630-22:08:59.000000000 : Initiated logon request
+20190630-22:09:58.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:09:58.000000000 : Initiated logon request
+20190630-22:10:08.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:10:08.000000000 : Received logon response
+20190630-22:43:38.000000000 : Created session
+20190630-22:43:38.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:43:38.000000000 : Initiated logon request
+20190630-22:43:41.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:43:41.000000000 : Received logon response
+20190630-22:45:55.000000000 : Created session
+20190630-22:45:55.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:45:55.000000000 : Initiated logon request
+20190630-22:45:56.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:45:56.000000000 : Received logon response
+20190630-22:46:48.000000000 : Created session
+20190630-22:46:48.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:46:48.000000000 : Initiated logon request
+20190630-22:46:51.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:46:51.000000000 : Received logon response
+20190630-22:48:01.000000000 : Created session
+20190630-22:48:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:48:01.000000000 : Initiated logon request
+20190630-22:48:02.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:48:02.000000000 : Received logon response
+20190630-22:48:21.000000000 : Created session
+20190630-22:48:21.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:48:21.000000000 : Initiated logon request
+20190630-22:48:22.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:48:22.000000000 : Received logon response
+20190630-22:50:44.000000000 : Created session
+20190630-22:50:44.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:50:44.000000000 : Initiated logon request
+20190630-22:50:45.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:50:45.000000000 : Received logon response
+20190630-22:52:41.000000000 : Created session
+20190630-22:52:41.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190630-22:52:41.000000000 : Initiated logon request
+20190630-22:52:42.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190630-22:52:42.000000000 : Received logon response
+20190701-00:00:00.000000000 : Received logout request
+20190701-00:00:00.000000000 : Sending logout response
+20190701-00:00:00.000000000 : Disconnecting
+20190701-00:00:00.000000000 : Initiated logon request
+20190701-00:42:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190701-00:42:01.000000000 : Initiated logon request
+20190701-00:42:01.000000000 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20190701-00:42:01.000000000 : Disconnecting
+20190701-00:43:01.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20190701-00:43:01.000000000 : Initiated logon request
+20190701-00:43:07.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20190701-00:43:07.000000000 : Received logon response

@@ -23,9 +23,12 @@ class Application(fix.Application):
     """FIX Application"""
 
     def __init__(self):
-         super().__init__()
-         self.sessionID = None
-         self.session_off = True
+        super().__init__()
+        self.sessionID = None
+        self.session_off = True
+        self.contractList=None
+        self.secStatus = "secStatus"
+        self.ListaContratos="ListaContratos"
     #     self.io_loop = ioloop.IOLoop.current()
 
 
@@ -46,6 +49,9 @@ class Application(fix.Application):
         #     f'onLogon sessionID: [{sessionID.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
         logfix.info("onLogon, Hello Rofex: >> (%s)" % self.sessionID)
         self.session_off = False
+        self.derivativeSecurityListRequest()
+        # self.securityStatus()
+
 
     def onLogout(self, sessionID):
         # onLogout notifies you when an FIX session is no longer online.
@@ -63,15 +69,16 @@ class Application(fix.Application):
         # This allows you to add fields to an adminstrative message before it is sent out.
 
         msg = message.toString().replace(__SOH__, "|")
-        logfix.info("S toAdmin>> (%s)" % msg)
+        logfix.info("S toAdmin1>> (%s)" % msg)
 
         if message.getHeader().getField(35) == "A":
             message.getHeader().setField(553, "pjseoane232")
             message.getHeader().setField(554, "AiZkiC5#")
             msg = message.toString().replace(__SOH__, "|")
-            logfix.info("S toAdmin>> (%s)" % msg)
+            logfix.info("S Logon>> (%s)" % msg)
             # logger.info(f'toAdmin sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
 
+        #print("*Contract List:->>", self.contractList)
 
 
     def fromAdmin(self, message, sessionID):
@@ -79,6 +86,7 @@ class Application(fix.Application):
         # Throwing a RejectLogon exception will disconnect the counterparty.
         msg = message.toString().replace(__SOH__, "|")
         logfix.info("R adm>> (%s)" % msg)
+        #print("listt->>", self.listt)
         # logger.info(f'fromAdmin sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
 
 
@@ -93,7 +101,7 @@ class Application(fix.Application):
         msg = message.toString().replace(__SOH__, "|")
         logfix.info("S toApp>> (%s)" % msg)
         # logger.info(f'toApp sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
-        self.getContractList()
+
 
     def fromApp(self, message, sessionID):
         # fromApp receives application level request.
@@ -105,18 +113,24 @@ class Application(fix.Application):
         # You can also throw an UnsupportedMessageType exception.
         # This will result in the counterparty getting a reject informing them your application cannot process those types of messages.
         # An IncorrectTagValue can also be thrown if a field contains a value you do not support.
-        # msg = message.toString().replace(__SOH__, "|")
-        # logfix.info("R app>> (%s)" % msg)
+        msg = message.toString().replace(__SOH__, "|")
+        #logfix.info("R app>> (%s)" % msg)
 
         self.onMessage(message, sessionID)
-        # logger.info(f'fromApp sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
+        #logger.info(f'fromApp sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
 
 
     def onMessage(self, message, sessionID):
         """on Message"""
         # Aca se procesan los mesajes que entran
         msg = message.toString().replace(__SOH__, "|")
+
         logfix.info("onMessage, R app>> (%s)" % msg)
+
+        noMDentries=fix.NoMDEntries()
+        message.getField(noMDentries)
+
+
 
         pass
 
@@ -126,34 +140,56 @@ class Application(fix.Application):
             time.sleep(2)
         # ioloop.IOLoop.current().start()
 
+    def securityStatus(self):
 
-    def getContractList(self):
-
-
-        msg=fix.Message()
-        header=msg.getHeader()
-         #
+        msg = fix.Message()
+        header = msg.getHeader()
+        header.setField(fix.MsgType(fix.MsgType_SecurityStatusRequest))
         header.setField(fix.BeginString(fix.BeginString_FIXT11))
         header.setField(fix.SenderCompID("pjseoane232"))
         header.setField(fix.TargetCompID("ROFX"))
-        # header.setField(fix.MsgType(fix.MsgType_SecurityList))
-        header.setField(fix.MsgType("y"))
 
-        header.setField(fix.ApplVerID("7"))
-         # header.setField(fix.SecurityReqID("d"))
-         # header.setField(fix.SecurityListRequestType(4)) #fix.SecurityListRequestType_ALL_SECURITIES))
+        msg.setField(fix.SecurityStatusReqID(self.secStatus))
+        msg.setField(fix.SubscriptionRequestType(fix.SubscriptionRequestType_SNAPSHOT_PLUS_UPDATES))
+        # msg.setField(fix.SubscriptionRequestType(fix.SubscriptionRequestType_SNAPSHOT))
+        fix.Session.sendToTarget(msg)
+
+    def derivativeSecurityListRequest(self):
+        msg = fix.Message()
+        header = msg.getHeader()
+        header.setField(fix.BeginString(fix.BeginString_FIXT11))
+        header.setField(fix.MsgType("z"))
+        header.setField(fix.SenderCompID("pjseoane232"))
+        header.setField(fix.TargetCompID("ROFX"))
+        msg.setField(fix.SecurityReqID(self.ListaContratos))
+        msg.setField(fix.SecurityListRequestType(4))
+        #msg.setField(fix.MarketID("ROFX"))
+        #msg.setField(fix.MarketSegmentID("DDF"))
+        fix.Session.sendToTarget(msg)
+
+
+    def securityListRequest(self):
+        #pag 73
+
+        #-------------------------------------------------------
+        msg=fix.Message()
+        header=msg.getHeader()
+        header.setField(fix.BeginString(fix.BeginString_FIXT11))
+        header.setField(fix.MsgType("x"))
+        header.setField(fix.SenderCompID("pjseoane232"))
+        header.setField(fix.TargetCompID("ROFX"))
+
+        msg.setField(fix.SecurityReqID(self.ListaContratos))
+        msg.setField(fix.SecurityListRequestType(1))
+        msg.setField(fix.MarketSegmentID('DDF'))
+        msg.setField(fix.CFICode("FXXXSX"))
+        msg.setField(fix.MarketID("ROFX"))
 
         fix.Session.sendToTarget(msg)
-         # msg=fix.MsgType_SecurityList
-         #
-         # fix.Session.sendToTarget(msg) #,fix.SenderCompID("pjseoane232"),fix.TargetCompID("ROFX"))
-        # message=fix.SecurityL
-        # # header=message.
-        # fix.SecurityReqID("c")
-        # fix.SecurityListRequestType(0)
-        # # message.SecurityListRequestType(559,"55")
-        # # # message.setField(Text,("Lista de Contratos"))
-        # fix.Session.sendToTarget(message,self.sessionID)
+        # #---------------------------------------------------------
+
+
+
 
     def newOrder(self):
 
