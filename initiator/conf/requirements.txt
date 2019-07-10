@@ -1,4 +1,5 @@
 quickfix==1.15.1
+http://www.quickfixengine.org/quickfix/doc/html/
 
 
 

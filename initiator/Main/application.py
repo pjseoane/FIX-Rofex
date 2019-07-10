@@ -5,6 +5,7 @@
 import sys
 # from datetime import datetime
 import quickfix as fix
+import quickfix50sp2 as fix50
 import time
 import logging
 import threading
@@ -15,7 +16,7 @@ from initiator.model.logger import setup_logger
 __SOH__ = chr(1)
 
 # Logger
-setup_logger('FIX', 'Logs/message.log')
+setup_logger('FIX', '../Logs/message.log')
 logfix = logging.getLogger('FIX')
 
 
@@ -49,9 +50,10 @@ class Application(fix.Application):
         #     f'onLogon sessionID: [{sessionID.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
         logfix.info("onLogon, Hello Rofex: >> (%s)" % self.sessionID)
         self.session_off = False
-        self.derivativeSecurityListRequest()
-        # self.securityStatus()
-
+        # self.derivativeSecurityListRequest()
+        # self.securityListRequest()
+        # self.securityStatusRequest()
+        self.marketDataRequest()
 
     def onLogout(self, sessionID):
         # onLogout notifies you when an FIX session is no longer online.
@@ -127,8 +129,8 @@ class Application(fix.Application):
 
         logfix.info("onMessage, R app>> (%s)" % msg)
 
-        noMDentries=fix.NoMDEntries()
-        message.getField(noMDentries)
+        # noMDentries=fix.NoMDEntries()
+        # message.getField(noMDentries)
 
 
 
@@ -140,19 +142,6 @@ class Application(fix.Application):
             time.sleep(2)
         # ioloop.IOLoop.current().start()
 
-    def securityStatus(self):
-
-        msg = fix.Message()
-        header = msg.getHeader()
-        header.setField(fix.MsgType(fix.MsgType_SecurityStatusRequest))
-        header.setField(fix.BeginString(fix.BeginString_FIXT11))
-        header.setField(fix.SenderCompID("pjseoane232"))
-        header.setField(fix.TargetCompID("ROFX"))
-
-        msg.setField(fix.SecurityStatusReqID(self.secStatus))
-        msg.setField(fix.SubscriptionRequestType(fix.SubscriptionRequestType_SNAPSHOT_PLUS_UPDATES))
-        # msg.setField(fix.SubscriptionRequestType(fix.SubscriptionRequestType_SNAPSHOT))
-        fix.Session.sendToTarget(msg)
 
     def derivativeSecurityListRequest(self):
         msg = fix.Message()
@@ -167,29 +156,92 @@ class Application(fix.Application):
         #msg.setField(fix.MarketSegmentID("DDF"))
         fix.Session.sendToTarget(msg)
 
-
     def securityListRequest(self):
         #pag 73
 
-        #-------------------------------------------------------
-        msg=fix.Message()
-        header=msg.getHeader()
-        header.setField(fix.BeginString(fix.BeginString_FIXT11))
-        header.setField(fix.MsgType("x"))
-        header.setField(fix.SenderCompID("pjseoane232"))
-        header.setField(fix.TargetCompID("ROFX"))
+        msg = self.buildMsgHeader("x")
 
         msg.setField(fix.SecurityReqID(self.ListaContratos))
-        msg.setField(fix.SecurityListRequestType(1))
-        msg.setField(fix.MarketSegmentID('DDF'))
+        msg.setField(fix.SecurityListRequestType(0))
+        # msg.setField(fix.MarketID("ROFX"))
+        # msg.setField(fix.MarketSegmentID('DDF'))
+
+        msg.setField(fix.Symbol("RFX20Sep19"))
+        msg.setField(fix.SecurityExchange('ROFX'))
         msg.setField(fix.CFICode("FXXXSX"))
-        msg.setField(fix.MarketID("ROFX"))
+
 
         fix.Session.sendToTarget(msg)
         # #---------------------------------------------------------
 
+    def securityStatusRequest(self):
+        # pag 80
+
+        msg=self.buildMsgHeader("e")
+
+        msg.setField(fix.SecurityStatusReqID("securityR"))
+        msg.setField(fix.SubscriptionRequestType("1"))
+        # Block Instrument
+
+        # msg.setField(fix.NoRelatedSym(1))
+        msg.setField(fix.Symbol("RFX20Sep19"))
+        msg.setField((fix.SecurityExchange("ROFX")))
+
+        fix.Session.sendToTarget(msg)
 
 
+    def marketDataRequest(self):
+        # pag 63
+        msg = fix50.MarketDataRequest()
+        header = msg.getHeader()
+        # header.setField(fix.BeginString(fix.BeginString_FIXT11))
+        # header.setField(fix.MsgType(msgType))
+        header.setField(fix.SenderCompID("pjseoane232"))
+        header.setField(fix.TargetCompID("ROFX"))
+
+        # msg = self.buildMsgHeader("V")
+
+
+
+        msg.setField(fix.MDReqID("ListaMktData2"))
+        msg.setField(fix.SubscriptionRequestType('2'))
+        msg.setField(fix.MarketDepth(1))
+        msg.setField(fix.MDUpdateType(0))
+        msg.setField(fix.AggregatedBook(True))
+
+        # msg.setField(fix.NoMDEntryTypes(2))
+
+        # ---- define Group
+
+        group=fix50.MarketDataRequest().NoMDEntryTypes()
+        group.setField(fix.MDEntryType('0'))
+        msg.addGroup(group)
+
+        # group = fix50.MarketDataRequest().NoMDEntryTypes()
+        group.setField(fix.MDEntryType('1'))
+        msg.addGroup(group)
+
+        # group3 = fix50.MarketDataRequest().NoMDEntryTypes()
+        # group3.setField(fix.MDEntryType('2'))
+        # msg.addGroup(group3)
+        # -----------------------------------------
+
+
+        msg.setField(fix.NoRelatedSym(1))
+        group = fix50.MarketDataRequest().NoRelatedSym()
+        group.setField(fix.Symbol("RFX20Sep19"))
+        msg.addGroup(group)
+
+        fix.Session.sendToTarget(msg)
+
+    def buildMsgHeader(self,msgType):
+        self.msg=msg = fix.Message()
+        header = msg.getHeader()
+        header.setField(fix.BeginString(fix.BeginString_FIXT11))
+        header.setField(fix.MsgType(msgType))
+        header.setField(fix.SenderCompID("pjseoane232"))
+        header.setField(fix.TargetCompID("ROFX"))
+        return self.msg
 
     def newOrder(self):
 
