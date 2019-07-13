@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RofexV6.iml" filepath="$PROJECT_DIR$/.idea/RofexV6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FIX-Rofex.iml" filepath="$PROJECT_DIR$/.idea/FIX-Rofex.iml" />
     </modules>
   </component>
 </project>
