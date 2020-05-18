@@ -1645,3 +1645,94 @@
 20190710-00:52:18.979379000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
 20190710-00:52:18.979676000 : Received logon response
 20190710-00:54:56.581733000 : Sent test request TEST
+20200507-22:46:31.000000000 : Created session
+20200507-22:46:31.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:46:33.000000000 : Disconnecting
+20200507-22:47:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:47:34.000000000 : Disconnecting
+20200507-22:48:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:48:34.000000000 : Disconnecting
+20200507-22:49:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:49:34.000000000 : Disconnecting
+20200507-22:50:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:50:34.000000000 : Disconnecting
+20200507-22:51:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:51:34.000000000 : Disconnecting
+20200507-22:52:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:52:34.000000000 : Disconnecting
+20200507-22:53:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:53:34.000000000 : Disconnecting
+20200507-22:54:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:54:34.000000000 : Disconnecting
+20200507-22:55:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:55:34.000000000 : Disconnecting
+20200507-22:56:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:56:34.000000000 : Disconnecting
+20200507-22:57:32.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-22:57:34.000000000 : Disconnecting
+20200507-23:09:09.000000000 : Created session
+20200507-23:09:09.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:09:11.000000000 : Disconnecting
+20200507-23:09:40.000000000 : Created session
+20200507-23:09:40.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:09:42.000000000 : Disconnecting
+20200507-23:18:15.000000000 : Created session
+20200507-23:18:15.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:18:17.000000000 : Disconnecting
+20200507-23:19:16.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:19:18.000000000 : Disconnecting
+20200507-23:20:16.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:20:18.000000000 : Disconnecting
+20200507-23:21:16.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:21:18.000000000 : Disconnecting
+20200507-23:21:34.000000000 : Created session
+20200507-23:21:34.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:21:36.000000000 : Disconnecting
+20200507-23:22:35.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:22:35.000000000 : Initiated logon request
+20200507-23:22:36.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200507-23:22:36.000000000 : Received logon response
+20200507-23:23:08.000000000 : Created session
+20200507-23:23:08.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200507-23:23:08.000000000 : Initiated logon request
+20200507-23:23:10.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200507-23:23:10.000000000 : Received logon response
+20200508-00:27:48.000000000 : Created session
+20200508-00:27:49.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200508-00:27:51.000000000 : Disconnecting
+20200508-00:28:16.000000000 : Created session
+20200508-00:28:16.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200508-00:28:17.000000000 : Initiated logon request
+20200508-00:28:17.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200508-00:28:17.000000000 : Received logon response
+20200508-02:13:02.000000000 : Created session
+20200508-02:13:02.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200508-02:13:02.000000000 : Initiated logon request
+20200508-02:13:03.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200508-02:13:03.000000000 : Received logon response
+20200509-23:39:22.000000000 : Created session
+20200509-23:39:22.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200509-23:39:22.000000000 : Initiated logon request
+20200509-23:39:24.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200509-23:39:24.000000000 : Received logon response
+20200511-03:11:00.000000000 : Created session
+20200511-03:11:00.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200511-03:11:00.000000000 : Initiated logon request
+20200511-03:11:01.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200511-03:11:01.000000000 : Received logon response
+20200516-19:35:17.000000000 : Created session
+20200516-19:35:17.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200516-19:35:19.000000000 : Disconnecting
+20200516-19:35:52.000000000 : Created session
+20200516-19:35:52.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200516-19:35:52.000000000 : Initiated logon request
+20200516-19:36:09.000000000 : Created session
+20200516-19:36:09.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200516-19:36:09.000000000 : Initiated logon request
+20200516-19:36:20.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200516-19:36:20.000000000 : Received logon response
+20200516-17:08:46.000000000 : Created session
+20200516-17:08:46.000000000 : Connecting to 127.0.0.1 on port 9876 (Source :0)
+20200516-17:08:46.000000000 : Initiated logon request
+20200516-17:08:47.000000000 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20200516-17:08:47.000000000 : Received logon response
