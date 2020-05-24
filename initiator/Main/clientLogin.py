@@ -2,7 +2,7 @@
 import sys
 import argparse
 import configparser
-import quickfix
+import quickfix as fix
 from initiator.Main.fixEngine import fixEngine
 
 def main(config_file):
@@ -18,25 +18,20 @@ def main(config_file):
         pswd = cpParser.get('usr-credentials', 'pswd')
         #************************
 
-        settings = quickfix.SessionSettings(config_file)
+        settings = fix.SessionSettings(config_file)
         myFixApplication = fixEngine()
         myFixApplication.setUsrId(usrId)
         myFixApplication.setUsrPswd(pswd)
 
-        storefactory = quickfix.FileStoreFactory(settings)
-        logfactory = quickfix.FileLogFactory(settings)
-        initiator = quickfix.SocketInitiator(myFixApplication, storefactory, settings, logfactory)
+        storefactory = fix.FileStoreFactory(settings)
+        logfactory = fix.FileLogFactory(settings)
+        initiator = fix.SocketInitiator(myFixApplication, storefactory, settings, logfactory)
 
         initiator.start()
         myFixApplication.run()
-
-
-        #while 1:
-         #   myFixApplication.goRobot()
-
         initiator.stop()
 
-    except (quickfix.ConfigError, quickfix.RuntimeError) as e:
+    except (fix.ConfigError, fix.RuntimeError) as e:
         print(e)
         initiator.stop()
         sys.exit()

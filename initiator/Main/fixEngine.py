@@ -8,17 +8,18 @@ import quickfix as fix
 import quickfix50sp2 as fix50
 import time
 import logging
-import simplefix
+from initiator.model.logger import setup_logger
+
+#import simplefix
 import threading
 
-from initiator.model.logger import setup_logger
-# from tornado import ioloop
+from tornado import ioloop
 
 __SOH__ = chr(1)
 
 # Logger
-setup_logger('FIX', '../Logs/message.log')
-logfix = logging.getLogger('FIX')
+setup_logger('logFIX', '../Logs/message.log')
+logfix = logging.getLogger('logFIX')
 
 
 class fixEngine(fix.Application):
@@ -30,8 +31,7 @@ class fixEngine(fix.Application):
         self.session_off = True
         self.contractList=None
         self.secStatus = "secStatus"
-        self.ListaContratos="ListaContratos"
-    #     self.io_loop = ioloop.IOLoop.current()
+        #self.ListaContratos="ListaContratos"
 
         self.usrId = None
         self.password = None
@@ -42,6 +42,9 @@ class fixEngine(fix.Application):
     def setUsrPswd(self, pswd):
         self.password = pswd
 
+    def formatMsg(self, message):
+        return message.toString().replace(__SOH__, "|")
+
     def onCreate(self, sessionID):
         # onCreate is called when quickfix creates a new session.
         # A session comes into and remains in existence for the life of the application.
@@ -49,17 +52,17 @@ class fixEngine(fix.Application):
         # As soon as a session is created, you can begin sending messages to it.
         # If no one is logged on, the messages will be sent at the time a connection is established with the counterparty.
         self.sessionID = sessionID
-        # logger.info(f'onCreate sessionID: [{sessionID.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
         logfix.info("onCreate session OK, sessionID >> (%s)" %self.sessionID)
+
 
     def onLogon(self, sessionID):
         # onLogon notifies you when a valid logon has been established with a counter party.
         # This is called when a connection has been established and the FIX logon process has completed with both parties exchanging valid logon messages.
         # logger.info(
         #     f'onLogon sessionID: [{sessionID.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
-
-        self.goRobot()
-        return
+        logfix.info("Logged OK, sessionID >> (%s)" %self.sessionID)
+        #self.goRobot()
+        #return
 
     def onLogout(self, sessionID):
         # onLogout notifies you when an FIX session is no longer online.
@@ -76,30 +79,40 @@ class fixEngine(fix.Application):
         # you may wish to do. Notice that the FIX::Message is not const.
         # This allows you to add fields to an adminstrative message before it is sent out.
 
-        msg = message.toString().replace(__SOH__, "|")
-        logfix.info("Send toAdmin1>> (%s)" % msg)
+        #logfix.info("toAdmin, Send toAdmin1>> (%s)" % msg)
 
         if message.getHeader().getField(35) == "A":
 
             message.getHeader().setField(553, self.usrId)
             message.getHeader().setField(554, self.password)
 
+            msg=self.formatMsg(message)
+            logfix.info("toAdmin, Send Logon>> (%s)" % msg)
 
-            msg = message.toString().replace(__SOH__, "|")
-            logfix.info("Send Logon>> (%s)" % msg)
-            # logger.info(f'toAdmin sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
+        elif message.getHeader().getField(35) == "3":
+            return
 
-        #print("*Contract List:->>", self.contractList)
+        elif message.getHeader().getField(35) == "0":
+            msg = self.formatMsg(message)
+            logfix.info("toAdmin, Send heartbeat>> (%s)" % msg)
+            return
 
+        msg = self.formatMsg(message)
+        logfix.info("toAdmin, Send toROFEX>> (%s)" % msg)
 
     def fromAdmin(self, message, sessionID):
         # fromAdmin notifies you when an administrative message is sent from a counterparty to your FIX engine. This can be usefull for doing extra validation on logon messages like validating passwords.
         # Throwing a RejectLogon exception will disconnect the counterparty.
-        msg = message.toString().replace(__SOH__, "|")
-        logfix.info("Received from adm>> (%s)" % msg)
-        #print("listt->>", self.listt)
-        # logger.info(f'fromAdmin sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
+        msg = self.formatMsg(message)
 
+        if message.getHeader().getField(35) == "0":
+
+            logfix.info("fromAdmin, Received heartbeat>> (%s)" % msg)
+        else:
+
+            #msg=self.formatMsg(message)
+            logfix.info("Received from adm>> (%s)" % msg)
+        return
 
     def toApp(self, message, sessionID):
         # toApp is a callback for application messages that are being sent to a counterparty.
@@ -109,11 +122,9 @@ class fixEngine(fix.Application):
         # If a DoNotSend exception is thrown and the flag is set to true, a sequence reset will be sent in place of the message.
         # If it is set to false, the message will simply not be sent. Notice that the FIX::Message is not const.
         # This allows you to add fields to an application message before it is sent out.
-        msg = message.toString().replace(__SOH__, "|")
+        msg = self.formatMsg(message)
         #self.goRobot()
         logfix.info("Send toApp>> (%s)" % msg)
-        # logger.info(f'toApp sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
-
 
     def fromApp(self, message, sessionID):
         # fromApp receives application level request.
@@ -125,32 +136,48 @@ class fixEngine(fix.Application):
         # You can also throw an UnsupportedMessageType exception.
         # This will result in the counterparty getting a reject informing them your application cannot process those types of messages.
         # An IncorrectTagValue can also be thrown if a field contains a value you do not support.
-        msg = message.toString().replace(__SOH__, "|")
+        self.onMessage(message, sessionID)
+        msg = self.formatMsg(message)
         logfix.info("from app>> (%s)" % msg)
-
-        #self.onMessage(message, sessionID)
-        #logger.info(f'fromApp sessionID: [{sessionID.toString()}], message: [{message.toString()}], main: [{threading.main_thread().ident}], current[{threading.current_thread().ident}]')
 
 
     def onMessage(self, message, sessionID):
         """on Message"""
         # Aca se procesan los mensajes que entran
-        msg = message.toString().replace(__SOH__, "|")
 
+        msg = self.formatMsg(message)
         logfix.info("onMessage, R app>> (%s)" % msg)
-
-        # noMDentries=fix.NoMDEntries()
-        # message.getField(noMDentries)
-
-
 
         pass
 
     def run(self):
         """Run"""
+        #ioloop.IOLoop.current().start()
         while 1:
-            time.sleep(2)
-        # ioloop.IOLoop.current().start()
+            #time.sleep(2)
+            action=self.queryAction()
+            if action == '1':
+                #self.queryEnterOrder()
+                print(action)
+            elif action == '2':
+                #self.queryCancelOrder()
+                print(action)
+            elif action == '3':
+                #self.queryReplaceOrder()
+                print(action)
+            elif action == '4':
+                #self.queryMarketDataRequest()
+                print(action)
+            elif action == '5':
+                print(action)
+            break
+            # elif action == '6':
+            #     print( self.sessionID.getSenderCompID() )
+
+    def queryAction(self):
+        print("1) Enter Order\n2) Cancel Order\n3) Replace Order\n4) Market data test\n5) Quit")
+        action = input("Action: ")
+        return action
 
     def goRobot(self):
         # Overridable Method
@@ -168,20 +195,7 @@ class fixEngine(fix.Application):
 
 
     def derivativeSecurityListRequest(self):
-        msg = fix.Message()
-        header = msg.getHeader()
-        header.setField(fix.BeginString(fix.BeginString_FIXT11))
-        header.setField(fix.MsgType("z"))
-        header.setField(fix.SenderCompID("pjseoane232"))
-        header.setField(fix.TargetCompID("ROFX"))
-        msg.setField(fix.SecurityReqID(self.ListaContratos))
-        msg.setField(fix.SecurityListRequestType(4))
-        #msg.setField(fix.MarketID("ROFX"))
-        #msg.setField(fix.MarketSegmentID("DDF"))
-        fix.Session.sendToTarget(msg)
-
-
-
+        pass
 
     def securityListRequest(self):
         #pag 73
@@ -198,7 +212,6 @@ class fixEngine(fix.Application):
         #msg.setField(fix.Symbol('RFX20Jun20'))
         #msg.setField(fix.SecurityExchange('ROFX'))
         msg.setField(fix.CFICode("FXXXSX"))
-
 
         fix.Session.sendToTarget(msg)
         return

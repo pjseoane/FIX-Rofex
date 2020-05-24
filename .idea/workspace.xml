@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81fa04e6-7f71-4fc2-9172-fb71bade7c04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_5_2020_22_01_[Default_Changelist]/FIXT.1.1-pjseoane232-ROFX.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_5_2020_00_50_[Default_Changelist]/FIXT.1.1-pjseoane232-ROFX.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initiator/Docs/quickfixengine.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FIX-Rofex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FIX-Rofex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Logs/FIXT.1.1-pjseoane232-ROFX.event.current.log" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Logs/FIXT.1.1-pjseoane232-ROFX.event.current.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Logs/FIXT.1.1-pjseoane232-ROFX.messages.current.log" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Logs/FIXT.1.1-pjseoane232-ROFX.messages.current.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Logs/message.log" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Logs/message.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Main/clientLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Main/clientLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Main/fixEngine.py" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Main/fixEngine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.body" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.body" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.header" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.header" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.seqnums" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.seqnums" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.session" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Sessions/FIXT.1.1-pjseoane232-ROFX.session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/conf/PTP-RFX-FIX_50SP2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Docs/PTP-RFX-FIX_50SP2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/conf/PrimaryAPI-FIX.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/Docs/PrimaryAPI-FIX.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initiator/conf/primary.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/initiator/conf/primary.cfg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bb9IJ1sqysIaDpU2htifniGaZa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/initiator/Main/client.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pauli\PycharmProjects\FIX-Rofex\initiator\Docs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunFixRofex" type="PythonConfigurationType" factoryName="Python">
+      <module name="FIX-Rofex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\pauli\.conda\envs\Rofex\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/initiator/Main" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/initiator/Main/clientLogin.py" />
+      <option name="PARAMETERS" value="..\conf\primary.cfg" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81fa04e6-7f71-4fc2-9172-fb71bade7c04" name="Default Changelist" comment="" />
+      <created>1588889845558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588889845558</updated>
+    </task>
+    <task id="LOCAL-00001" summary="mm">
+      <created>1589763731267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589763731267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mm" />
+    <option name="LAST_COMMIT_MESSAGE" value="mm" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="364" y="-1021" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589764859033">
+      <screen x="-311" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="364" y="-1021" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589764859033" />
+    <state x="133" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1588891586022" />
+    <state x="325" y="-751" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589926821050">
+      <screen x="-311" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="325" y="-751" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589926821050" />
+    <state x="281" y="-933" key="CommitChangelistDialog2" timestamp="1589763730648">
+      <screen x="-311" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="281" y="-933" key="CommitChangelistDialog2/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589763730648" />
+    <state x="522" y="-899" key="FileChooserDialogImpl" timestamp="1589847052063">
+      <screen x="-311" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="522" y="-899" key="FileChooserDialogImpl/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589847052063" />
+    <state x="458" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1588890980316" />
+    <state width="1325" height="261" key="GridCell.Tab.0.bottom" timestamp="1590268912787">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1773" height="361" key="GridCell.Tab.0.bottom/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589926872798" />
+    <state width="624" height="217" key="GridCell.Tab.0.bottom/0.0.1366.768/-311.-1080.1920.1080@0.0.1366.768" timestamp="1589767246661" />
+    <state width="1325" height="261" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590268912787" />
+    <state width="1325" height="261" key="GridCell.Tab.0.center" timestamp="1590268912787">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1773" height="361" key="GridCell.Tab.0.center/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589926872798" />
+    <state width="624" height="217" key="GridCell.Tab.0.center/0.0.1366.768/-311.-1080.1920.1080@0.0.1366.768" timestamp="1589767246661" />
+    <state width="1325" height="261" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590268912787" />
+    <state width="1325" height="261" key="GridCell.Tab.0.left" timestamp="1590268912787">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1773" height="361" key="GridCell.Tab.0.left/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589926872798" />
+    <state width="624" height="217" key="GridCell.Tab.0.left/0.0.1366.768/-311.-1080.1920.1080@0.0.1366.768" timestamp="1589767246660" />
+    <state width="1325" height="261" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590268912787" />
+    <state width="1325" height="261" key="GridCell.Tab.0.right" timestamp="1590268912787">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1773" height="361" key="GridCell.Tab.0.right/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589926872798" />
+    <state width="624" height="217" key="GridCell.Tab.0.right/0.0.1366.768/-311.-1080.1920.1080@0.0.1366.768" timestamp="1589767246661" />
+    <state width="1325" height="261" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590268912787" />
+    <state x="535" y="-635" width="389" height="267" key="MultipleFileMergeDialog" timestamp="1589763799450">
+      <screen x="-311" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="535" y="-635" width="389" height="267" key="MultipleFileMergeDialog/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589763799450" />
+    <state x="180" y="18" key="SettingsEditor" timestamp="1589946501045">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-58" y="-1055" key="SettingsEditor/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589849971740" />
+    <state x="180" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589946501045" />
+    <state x="275" y="-689" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589763780517">
+      <screen x="-311" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="275" y="-689" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-311.-1080.1920.1080@-311.-1080.1920.1080" timestamp="1589763780517" />
+  </component>
+</project>
